@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" >
+        <div>
+            <input id="result" class="result" type="text">
+        </div>
+        <div>
+            <button class="BTN" >CE</button>
+             <button class="BTN" >C</button>
+             <button class="BTN" > ÷ </button>
+             <button class="BTN" onclick="clearResult()">⌫</button>
+        </div>
+        <div>
+            <button class="BTN" onclick="getNumber('7')"  >7</button>
+            <button class="BTN" onclick="getNumber('8')"  >8</button>
+            <button class="BTN" onclick="getNumber('9')"  >9</button>
+            <button class="BTN" onclick="getNumber('*')"  >X</button>
+        </div>
+        <div>
+            <button class="BTN" onclick="getNumber('4')"  >4</button>
+            <button class="BTN" onclick="getNumber('5')"  >5</button>
+            <button class="BTN" onclick="getNumber('6')"  >6</button>
+            <button class="BTN" onclick="getNumber('-')" >-</button>
+        </div>
+        <div>
+            <button class="BTN" onclick="getNumber('1')"  >1</button>
+            <button class="BTN" onclick="getNumber('2')"  >2</button>
+            <button class="BTN" onclick="getNumber('3')"  >3</button>
+            <button class="BTN" onclick="getNumber('+')"  >+</button>
+        </div>
+        <div>
+            <button class="halfBTNf" onclick="getNumber('0')"  >0</button>
+            <button class="halfBTN" onclick="getNumber('.')"  >.</button>
+            <button class="halfBTN" onclick="getResult()"  >=</button>
+        </div>
+
+    </div>
+
+    
+</body>
+<script src="app.js"></script>
+</html>

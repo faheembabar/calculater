@@ -1,0 +1,38 @@
+.main {
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.result {
+    width: 97%;
+    text-align: center;
+    background-color: #A9A9A9;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 1px;
+    
+}
+
+.BTN {
+    width: 22%;
+    margin: 2.5px;
+    background-color: #A9A9A9;
+    color: black;
+    
+}
+
+.halfBTNf  {
+    width: 48%;
+    margin: 1.5px;
+    background-color: #A9A9A9;
+    color: black;
+}
+
+.halfBTN{
+    width: 22%;
+    margin: 1.7px;
+    background-color: #A9A9A9;
+    color: black;
+}
